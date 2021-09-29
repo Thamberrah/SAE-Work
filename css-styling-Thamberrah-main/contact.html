@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <form v-on:submit.prevent="sendForm" v-show="showForm" method="post">
+        <label for="name">*Name: </label><input v-model="name" type="text" placeholder="Your Name" required/>
+        <label for="email">*Contact Email:</label><input type="email" v-model="email" placeholder="dom@dompatmore.com" required>
+        <label for="category">Subject</label><select name="category" v-model="category">
+            <option value="courses">I'd like more info on your courses</option>
+            <option value="speaking">I'm looking for a speaker</option>
+            <option value="training">I'm interesed in custom training</option>
+            <option value="other">Something else</option>
+            <textarea name="body" v-model="message" id="" cols="30" rows="10" placeholder="What's up?" required></textarea>
+        </select>
+        <label for="body">*Message:</label>
+        <input type="checkbox" name="" id="" v-model="trapSet" hidden>
+        <button>Send</button>
+    </form>   
+</body>
+</html>

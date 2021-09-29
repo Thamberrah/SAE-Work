@@ -1,0 +1,1 @@
+On Monday's class, we looked at the list of goals. Create an HTML file and replicate the picture.

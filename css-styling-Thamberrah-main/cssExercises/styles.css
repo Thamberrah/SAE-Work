@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main {
+    background-color: #D3D3D3;
+}
+p#things {
+    font-size: 20px;
+}
+
+li.it {
+    font-family: 'Playfair Display', serif;
+}
+li.ee {
+    background-color: #0000FF;
+}
+li.od {
+    background-color: #ffffff;
+}
+li:hover {
+    cursor: pointer;
+}
