@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div.main p {
+    color: #FF0000;
+    text-align: center;
+}
+
+footer{
+    background-color: #5E1C1C;
+}
+
+footer p{
+    color: #fff;
+}
