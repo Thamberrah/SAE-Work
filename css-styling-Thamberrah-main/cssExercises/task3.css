@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div.container {
+    text-align: center;
+    font-size: 25px;
+}
+
+.lt > ul {
+    list-style: none;
+    padding: 5px;
+}
+.lt a {
+    text-decoration: none;
+    display: block;
+    padding: 49px;
+    background: #900;
+    border-radius: 5px;
+    color: #000000;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.lt:hover a {
+    opacity: 0.2;
+}
+.lt:hover ul:hover a {
+    opacity: 0.5;
+}
+.lt:hover ul:hover a:hover {
+    opacity: 1;
+}
