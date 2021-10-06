@@ -9,7 +9,7 @@ main{
 main section {
     background-color: hsl(200,50%,50%);
 }
- section:nth-child(1){
+ section:nth-child(2){
     background-color: hsl(200,25%,50%)
 }
 .heading-title{
