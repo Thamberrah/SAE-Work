@@ -3,12 +3,19 @@ main{
     text-align: center;
     padding: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    display: flex;
+    flex-direction: column;
+}
+main .sections {
+    display: flex;
+    justify-content: space-between;
 }
 
 main section {
     background-color: hsl(200,50%,50%);
+    margin: 1em;
 }
+
  section:nth-child(2){
     background-color: hsl(200,25%,50%)
 }
