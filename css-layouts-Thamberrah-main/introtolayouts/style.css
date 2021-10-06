@@ -1,8 +1,9 @@
 main{
     margin: auto auto;
-    text-align: right;
+    text-align: center;
     padding: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 main section {
