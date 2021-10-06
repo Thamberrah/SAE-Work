@@ -1,0 +1,16 @@
+main{
+    margin: auto auto;
+    text-align: right;
+    padding: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main section {
+    background-color: hsl(200,50%,50%);
+}
+ section:nth-child(1){
+    background-color: hsl(200,25%,50%)
+}
+.heading-title{
+    color: hsl(180,30%,70%);
+}
