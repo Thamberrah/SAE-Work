@@ -1,0 +1,21 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.wrapper > div {
+    padding: 1em;
+}
+.wrapper :nth-child(odd) {
+    background: #fff;
+}
+
+.name {
+    text-align: center;
+    color: #718000;
+}
+.nav-item {
+    font-weight: 600;
+}
