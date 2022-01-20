@@ -29,6 +29,9 @@ td, th {
     margin: auto;
     overflow: hidden;
 }
+nav {
+    text-align: center;
+}
 ul {
     padding: 0;
 }
@@ -40,43 +43,25 @@ ul li {
 a {
     text-decoration: none;
     color: #000000;
-    padding: 10px 75px;
     font-size: 22px;
+    padding: 10px 80px;
 }
 li a {
     border: 1px solid #000;
 }
 
+img.square {
+    width: 100%;
+}
 .flex {
     display: flex;
+    width: 50%;
 }
-
 article {
-    padding-left: 5px;
-}
-img.square {
-    width: 340px;
+    padding-left: 35px;
+    width: 400px;
 }
 
 .sample {
-    margin-left: 20px;
-}
-h1.text {
-    margin-top: 5px;
-}
-.data {
-    background-color: lightgray;
-    width: 300px;
-    height: 50px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#text {
-    background-color: lightgray;
-}
-button {
-    background-color: lightgray;
-    width: 300px;
-    height: 50px;
+    width: 500px;
 }

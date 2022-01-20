@@ -98,4 +98,4 @@
     console.log(f);
 */
 
-document.getElementById('text').style.backgroundColor = 'red';
+document.getElementById('text').style.backgroundColor="red";
