@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta content="text/html" charset="utf-8" http-equiv="Content-Type">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        
+        <h1>Questionnaire</h1>
+
+        <div class="point">
+            <h2>Goals of Data Gathering Sessions</h2>
+
+            <ul>
+                <li>To collect sufficient results</li>
+                <li>To identify participants</li>
+                <li>To create a relationship between the data collector and the data provider</li>
+            </ul>
+        </div>
+
+        <div class="point">
+            <h2>Ways of Recording Interview Data</h2>
+
+            <ul>
+                <li>Field Notes</li>
+                <li>Transcripts</li>
+                <li>Digital Recordings</li>
+                <li>Collaborative Sharing</li>
+                <li>Using Audio Recording Software, e.g. Otter.ai records meetings and transcribes them as it is being recorded</li>
+                <li>Using Audio Recording Hardware, e.g. Digital voice recorder and microphones</li>
+            </ul>
+        </div>
+
+        <div class="point">
+            <h2>Questions to ask for opinions about E-Readers</h2>
+
+            <form id="form">
+           
+                <div class="form-control">
+                    <label for="role" id="label-role">
+                        How often do you read books?
+                    </label>
+                     
+                    <!-- Dropdown options -->
+                    <select name="role" id="role">
+                        <option value="regularly">Regularly</option>
+                        <option value="sometimes">Sometimes</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+          
+                <div class="form-control">
+                    <label>
+                        Is reading in colour important for you?
+                    </label>
+         
+                    <!-- Input Type Radio Button -->
+                    <label for="recommed-1">
+                        <input type="radio"
+                               id="recommed-1"
+                               name="recommed">Yes</input>
+                    </label>
+                    <label for="recommed-2">
+                        <input type="radio"
+                               id="recommed-2"
+                               name="recommed">No</input>
+                    </label>
+                </div>
+          
+                <div class="form-control">
+                    <label>What kind of books do you mostly read?</label>
+                    <!-- Input Type Checkbox -->
+                    <label for="inp-1">
+                        <input type="checkbox"
+                               name="inp">Text-only (fiction)</input></label>
+                    <label for="inp-2">
+                        <input type="checkbox"
+                               name="inp">Text with pictures or graphics</input></label>
+                </div>
+
+                <div class="form-control">
+                    <label>
+                        Do you want to read enhanced e-books?
+                    </label>
+         
+                    <!-- Input Type Radio Button -->
+                    <label for="recommed-1">
+                        <input type="radio"
+                               id="recommed-1"
+                               name="recommed">Yes</input>
+                    </label>
+                    <label for="recommed-2">
+                        <input type="radio"
+                               id="recommed-2"
+                               name="recommed">No</input>
+                    </label>
+                </div>
+
+                <div class="form-control">
+                    <label for="role" id="label-role">
+                        How long can you read a book non-stop
+                    </label>
+                     
+                    <!-- Dropdown options -->
+                    <select name="role" id="role">
+                        <option value="hourMore">More than an hour</option>
+                        <option value="hourLess">Less than an hour</option>
+                    </select>
+                </div>
+
+                <div class="form-control">
+                    <label>
+                        Are you concerned about eye strains with your screen?
+                    </label>
+         
+                    <!-- Input Type Radio Button -->
+                    <label for="recommed-1">
+                        <input type="radio"
+                               id="recommed-1"
+                               name="recommed">Yes</input>
+                    </label>
+                    <label for="recommed-2">
+                        <input type="radio"
+                               id="recommed-2"
+                               name="recommed">No</input>
+                    </label>
+                </div>
+
+                <div class="form-control">
+                    <label>
+                        Do you like using devices with the rest of your family members?
+                    </label>
+         
+                    <!-- Input Type Radio Button -->
+                    <label for="recommed-1">
+                        <input type="radio"
+                               id="recommed-1"
+                               name="recommed">Yes</input>
+                    </label>
+                    <label for="recommed-2">
+                        <input type="radio"
+                               id="recommed-2"
+                               name="recommed">No</input>
+                    </label>
+                </div>
+
+                <div class="form-control">
+                    <label>
+                        Do you want to have constant access to the internet?
+                    </label>
+         
+                    <!-- Input Type Radio Button -->
+                    <label for="recommed-1">
+                        <input type="radio"
+                               id="recommed-1"
+                               name="recommed">Yes</input>
+                    </label>
+                    <label for="recommed-2">
+                        <input type="radio"
+                               id="recommed-2"
+                               name="recommed">No</input>
+                    </label>
+                </div>
+
+                <div class="form-control">
+                    <label>
+                        Do you expect the device to help you focus on reading?
+                    </label>
+         
+                    <!-- Input Type Radio Button -->
+                    <label for="recommed-1">
+                        <input type="radio"
+                               id="recommed-1"
+                               name="recommed">Yes</input>
+                    </label>
+                    <label for="recommed-2">
+                        <input type="radio"
+                               id="recommed-2"
+                               name="recommed">No</input>
+                    </label>
+                </div>
+
+                <div class="form-control">
+                    <label>What other functions would you like to have?</label>
+                    <!-- Input Type Checkbox -->
+                    <label for="inp-1">
+                        <input type="checkbox"
+                               name="inp">Music, including text-to-speech</input></label>
+                    <label for="inp-2">
+                        <input type="checkbox"
+                               name="inp">Music, including text-to-speech, videos, games, internet, mail</input></label>
+                </div>
+
+
+          
+                <div class="form-control">
+                    <label for="comment">
+                        Any comments or suggestions
+                    </label>
+         
+                    <!-- multi-line text input control -->
+                    <textarea name="comment" id="comment"
+                        placeholder="Enter your comment here">
+                    </textarea>
+                </div>
+          
+                <!-- Multi-line Text Input Control -->
+                <button type="submit" value="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+
+
+
+
+    </body>
+
+</html>
