@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+
+.bleughh {
+    position: absolute;
+    margin-top: 50px;
+    border-radius: 90%;
+    background: burlywood;
+    width: 40px;
+    height: 50px;
+
+    animation: tenSec 2s infinite;
+    animation-fill-mode: forwards;
+    animation-delay: -3s;
+}
+
+@keyframes tenSec {
+    from{
+        left: 0;
+    }
+
+    to{
+        left: calc(100% - 100px);
+    }
+
+}
