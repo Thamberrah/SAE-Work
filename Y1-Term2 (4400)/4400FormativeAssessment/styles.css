@@ -41,13 +41,13 @@ section {
     display: block;
 }
 .content a:hover {
-    background-color: #000000;
+    background-color: rgba(255,255,255,0.5);
 }
 .dropdown:hover .content {
     display: block;
 }
 .dropdown:hover .dropbtn {
-    background-color: #3e9e41;
+    background-color: #272727;
 }
 
   
@@ -125,7 +125,7 @@ section {
 }
 
 .btn-one {
-	color: #FFF;
+	color: #ffffff;
 	transition: all 0.3s;
 	position: relative;
 }
@@ -194,6 +194,7 @@ section {
 	transform: scale(0.5,0.5);
 }
 .btn-two::after {
+    content: '';
 	position: absolute;
 	top: 0;
 	left: 0;
