@@ -88,8 +88,6 @@ section {
     opacity: 1;
 }
 
-
-
 .second {
     border-color: #000000;
     color: #f1c40f;
@@ -106,8 +104,6 @@ section {
     background-position: 0;
 }
   
-
-
 .third:hover{
     background-color: #f1c40f;
     transition: all 3s;
@@ -115,12 +111,11 @@ section {
     font-size: 25px;
 }
 
+
 .button {
     display: flex;
     text-align: center;
 }
-
-
 .btn, img {
     margin: 0 30px;
     padding: 30px 10px;
@@ -128,7 +123,6 @@ section {
 .btn {
     width: 400px;
 }
-
 
 .btn-one {
 	color: #FFF;
@@ -179,12 +173,12 @@ section {
 	transform: scale(0.1, 1);
 }
 
-.btn-three {
+.btn-two {
 	color: #FFF;
 	transition: all 0.5s;
 	position: relative;
 }
-.btn-three::before {
+.btn-two::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -195,11 +189,11 @@ section {
 	background-color: rgba(255,255,255,0.1);
 	transition: all 0.3s;
 }
-.btn-three:hover::before {
+.btn-two:hover::before {
 	opacity: 0 ;
 	transform: scale(0.5,0.5);
 }
-.btn-three::after {
+.btn-two::after {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -211,7 +205,7 @@ section {
 	border: 1px solid rgba(255,255,255,0.5);
 	transform: scale(1.2,1.2);
 }
-.btn-three:hover::after {
+.btn-two:hover::after {
 	opacity: 1;
 	transform: scale(1,1);
 }
