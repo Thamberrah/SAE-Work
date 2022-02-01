@@ -20,7 +20,7 @@ section {
     display: inline-block;
 }
 .dropbtn {
-    background-color: blue;
+    background-color: #000000;
     color: #ffffff;
     padding: 15px;
     font-size: 18px;
@@ -29,19 +29,19 @@ section {
 .content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #000000;
     min-width: 900px;
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 .content a{
-    color: #000000;
+    color: #ffffff;
     padding: 10px 15px;
     text-decoration: none;
     display: block;
 }
 .content a:hover {
-    background-color: #dddddd;
+    background-color: #000000;
 }
 .dropdown:hover .content {
     display: block;
