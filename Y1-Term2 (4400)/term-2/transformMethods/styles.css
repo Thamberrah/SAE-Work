@@ -1,4 +1,4 @@
-div {
+/*div {
     width: 200px;
     height: 100px;
     background-color: rgb(164, 163, 231);
@@ -9,11 +9,12 @@ h1 {
     margin-bottom: 50px;
 }
 .divOne {
-    transform: translate(50px,20px);
+    transform: from;
 }
-.divTwo {
+.divTwo:hover {
     transform: rotate(20deg);
 }
+
 .divThree {
     transform: rotate(-20deg);
 }
@@ -52,4 +53,33 @@ section.scale {
 .divTwelve {
     transform: skew(20deg,10deg);
     margin-left: 400px;
+}*/
+
+section {
+background: linear-gradient(to left bottom, #ff0000 50%, #0000ff 50.3%);
+width: auto;
+height: 700px;
 }
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: gold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding: 5px;
+    animation: shimmy 2s infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes shimmy {
+    0% {
+      transform: translate(0, 0);    
+    }
+    100% {
+      transform: translate(700px, 510px);
+    }
+  }
