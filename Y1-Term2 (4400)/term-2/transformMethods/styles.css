@@ -53,7 +53,7 @@ section.scale {
 .divTwelve {
     transform: skew(20deg,10deg);
     margin-left: 400px;
-}*/
+}
 
 section {
 background: linear-gradient(to left bottom, #ff0000 50%, #0000ff 50.3%);
@@ -82,4 +82,87 @@ height: 700px;
     100% {
       transform: translate(700px, 510px);
     }
-  }
+  }*/
+
+.box {
+	position: relative;
+	height: 400px;
+	width: 800px;
+	margin-left: 100px;
+}
+
+.red {
+	margin-left: 340px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin-top: 5px;
+	background-color: red;
+	transition: all 2s cubic-bezier(0, 1.1, 0.8, 4);
+}
+
+.blue {
+	margin-left: 340px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin-top: 5px;
+	background-color: blue;
+	transition: all 3s cubic-bezier(1, 0.2, 0.5, 2);
+}
+
+.green {
+	margin-left: 340px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin-top: 5px;
+	background-color: green;
+	transition: all 2s cubic-bezier(0.5, 1.8, 1, 3);
+}
+
+.yellow {
+	margin-left: 340px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin-top: 5px;
+	background-color: yellow;
+	transition: all 4s cubic-bezier(0.1, 1.2, 0.1, 1);
+}
+
+.box:hover .red {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-left: 720px;
+	background-color: red;
+}
+
+.box:hover .blue {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-left: 720px;
+	background-color: blue;
+}
+
+.box:hover .green {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-left: 720px;
+	background-color: green;
+}
+
+.box:hover .yellow {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-left: 720px;
+	background-color: yellow;
+}
