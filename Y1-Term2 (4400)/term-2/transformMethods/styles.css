@@ -1,0 +1,55 @@
+div {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(164, 163, 231);
+    border: 1px solid black;
+    overflow: hidden;
+}
+h1 {
+    margin-bottom: 50px;
+}
+.divOne {
+    transform: translate(50px,20px);
+}
+.divTwo {
+    transform: rotate(20deg);
+}
+.divThree {
+    transform: rotate(-20deg);
+}
+.divFour {
+    transform: scale(2,3);
+    margin-left: 400px;
+}
+section.scale {
+    margin-top: 100px;
+}
+.divFive {
+    transform: scale(0.5, 0.5);
+}
+.divSix {
+    transform: scaleX(2);
+    margin-left: 400px;
+}
+.divSeven {
+    transform: scaleX(0.5);
+}
+.divEight {
+    transform: scaleY(3);
+    margin-left: 400px;
+}
+.divNine {
+    transform: scaleY(0.5);
+}
+.divTen {
+    transform: skewX(20deg);
+    margin-left: 400px;
+}
+.divEleven {
+    transform: skewY(20deg);
+    margin-left: 400px;
+}
+.divTwelve {
+    transform: skew(20deg,10deg);
+    margin-left: 400px;
+}
